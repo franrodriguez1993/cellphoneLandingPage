@@ -1,0 +1,15 @@
+.navbar {
+  width: 100%;
+
+  background-color: var(--color2);
+}
+.nav-link {
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+  color: #fff;
+  font-family: var(--font1);
+}
