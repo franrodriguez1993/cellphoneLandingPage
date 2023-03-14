@@ -26,6 +26,7 @@
   height: 12rem;
   border-radius: 10px;
   background-color: var(--color1);
+  font-family: var(--font2);
 }
 .cc-box-card_img {
   width: 4rem;

@@ -1,0 +1,97 @@
+.CellphonePrices-container {
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.CellphonePrices-title {
+  font-weight: bolder;
+  padding: 1rem 0;
+  color: #fff;
+  font-size: 2rem;
+}
+.CellphonePrices-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.price-section {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ps-text {
+  margin: 0 5rem;
+  font-family: var(--font2);
+}
+
+.ps-text_card {
+  margin: 3rem 0;
+}
+.ps-text_card--title {
+  font-size: 1.3rem;
+  color: var(--color2);
+}
+.ps-text_card--memory,
+.ps-text_card--price {
+  font-weight: bolder;
+}
+
+/**    MEDIA QUERIES    **/
+
+@media (max-width: 800px) {
+  .cellphonecolors-img {
+    height: 300px;
+    object-position: 0;
+  }
+  .ps-img {
+    height: 20rem;
+  }
+  .ps-text_card {
+    margin: 2rem 0;
+  }
+  .ps-text_card--title {
+    font-size: 1rem;
+  }
+  .ps-text_card--memory,
+  .ps-text_card--price {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .cellphonecolors-title {
+    font-size: 1.5rem;
+  }
+
+  .ps-img {
+    height: 15rem;
+  }
+  .ps-text_card {
+    margin: 1rem 0;
+  }
+  .ps-text_card--title {
+    font-size: 0.8rem;
+  }
+  .ps-text_card--memory,
+  .ps-text_card--price {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .cellphonecolors-title {
+    font-size: 1.3rem;
+  }
+  .ps-text {
+    margin: 0 2rem;
+  }
+  .ps-text_card {
+    width: 100px;
+    padding: 0;
+  }
+  .price-section {
+    align-items: normal;
+  }
+}

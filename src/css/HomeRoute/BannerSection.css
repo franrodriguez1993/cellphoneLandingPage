@@ -21,6 +21,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: var(--font2);
 }
 .bannersection-container_text h4 {
   font-weight: bolder;

@@ -4,7 +4,7 @@ import "../../css/Accesories/Navbar.css";
 const Navbar = ({
   characteristicsRef,
   bannerRef,
-  colorsRef,
+  pricesRef,
   scrollToSection,
 }) => {
   return (
@@ -45,9 +45,9 @@ const Navbar = ({
             </li>
             <li
               className="nav-item nav-link"
-              onClick={() => scrollToSection(colorsRef)}
+              onClick={() => scrollToSection(pricesRef)}
             >
-              Styles
+              Prices
             </li>
           </ul>
         </div>
